@@ -14,7 +14,10 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    paddingTop: Constants.statusBarHeight
+  container: {                //ในส่วนนี้ไม่ได้เปลี่ยนเป็น padding เนื่องจากผมทำในเว็บ ไม่ได้ทำในมือถือ Android ครับ
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center'
   },
 });
